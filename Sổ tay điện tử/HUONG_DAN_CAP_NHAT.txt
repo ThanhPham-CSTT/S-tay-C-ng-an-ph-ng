@@ -1,0 +1,10 @@
+HUONG DAN CAP NHAT PCCC TREN NETLIFY
+
+1. Giai nen file ZIP nay ra thanh 1 thu muc.
+2. Vao Netlify -> site dang dung -> Deploys.
+3. Keo tha CA THU MUC vua giai nen vao Netlify, khong keo rieng 1 file index.html.
+4. Cho hien chu Published.
+5. Tren iPhone/iPad: dong app cu, mo Safari vao link Netlify.
+6. Neu chua thay PCCC: vao Safari -> Aa -> Website Settings/hoac Clear History and Website Data; hoac xoa icon cu tren man hinh chinh roi Add to Home Screen lai.
+
+Ly do: ban cu co sw.js luu cache offline. Neu chi thay index.html, iPhone co the van doc file cu trong cache.
