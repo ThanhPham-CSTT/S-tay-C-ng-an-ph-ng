@@ -1,0 +1,34 @@
+<section class="panel field-case-panel" id="fieldCasePanel" hidden>
+  <div class="field-case-head">
+    <div><div class="section-title">🗂️ Hồ sơ vụ việc — chế độ hỗ trợ, không lưu thông tin công dân</div><div class="small">Chỉ nhập mô tả nghiệp vụ đã ẩn danh. Phiên làm việc tồn tại trong bộ nhớ và tự xóa sau 30 phút không thao tác.</div></div>
+    <button id="fieldCaseClose" type="button" aria-label="Đóng hồ sơ">Đóng</button>
+  </div>
+  <div class="privacy-strip">🔐 Không nhập họ tên, số định danh, biển số đầy đủ, địa chỉ cụ thể hoặc dữ liệu cá nhân vào bản thử nghiệm này.</div>
+  <div class="field-case-grid">
+    <label>Mã vụ việc nội bộ<input id="caseRef" maxlength="30" placeholder="VD: CA-P-2026-001 (không dùng thông tin cá nhân)"/></label>
+    <label>Nhóm nghiệp vụ<select id="caseModule"><option>NĐ168 - Giao thông</option><option>NĐ336 - Đường bộ/đô thị</option><option>PCCC - CNCH</option></select></label>
+    <label>Chủ thể<select id="caseSubject"><option>Người điều khiển phương tiện</option><option>Cá nhân</option><option>Tổ chức</option><option>Chủ phương tiện/cơ sở</option><option>Chưa xác định</option></select></label>
+    <label>Loại địa điểm<select id="casePlace"><option>Đường giao thông</option><option>Vỉa hè/lòng đường</option><option>Cơ sở/nhà ở</option><option>Khu vực công cộng</option><option>Khác (không ghi địa chỉ cụ thể)</option></select></label>
+    <label>Thời điểm hành vi<input id="caseTime" type="datetime-local"/></label>
+    <label>Mức độ xác minh<select id="caseVerify"><option>Phát hiện ban đầu</option><option>Đã xác minh dấu hiệu chính</option><option>Đủ tài liệu đề xuất xử lý</option><option>Cần đơn vị chuyên môn</option></select></label>
+  </div>
+  <label class="case-full">Mô tả hành vi đã ẩn danh<textarea id="caseDescription" rows="3" maxlength="800" placeholder="Mô tả dấu hiệu quan sát được; không nhập dữ liệu cá nhân..."></textarea></label>
+  <div class="case-selected" id="caseSelectedLaw">Chưa chọn dòng pháp lý. Hãy tra cứu và bấm “Thêm vào hồ sơ”.</div>
+  <fieldset><legend>Chứng cứ/tài liệu đã có</legend><div class="evidence-grid">
+    <label><input type="checkbox" data-evidence="Ảnh toàn cảnh"/> Ảnh toàn cảnh</label>
+    <label><input type="checkbox" data-evidence="Ảnh cận cảnh dấu hiệu"/> Ảnh cận cảnh</label>
+    <label><input type="checkbox" data-evidence="Video/thiết bị nghiệp vụ"/> Video/thiết bị</label>
+    <label><input type="checkbox" data-evidence="Giấy tờ liên quan"/> Giấy tờ liên quan</label>
+    <label><input type="checkbox" data-evidence="Số đo/thông số"/> Số đo/thông số</label>
+    <label><input type="checkbox" data-evidence="Người chứng kiến"/> Người chứng kiến</label>
+    <label><input type="checkbox" data-evidence="Biên bản làm việc"/> Biên bản làm việc</label>
+    <label><input type="checkbox" data-evidence="Ý kiến đơn vị chuyên môn"/> Ý kiến chuyên môn</label>
+  </div></fieldset>
+  <fieldset><legend>Đánh giá ca thí điểm (không bắt buộc)</legend><div class="field-case-grid">
+    <label>Kết quả tìm kiếm<select id="pilotSearchOutcome"><option>Chưa đánh giá</option><option>Đúng ở kết quả đầu tiên</option><option>Đúng trong 3 kết quả đầu</option><option>Phải tìm thủ công</option><option>Không có kết quả phù hợp</option></select></label>
+    <label>Kết luận thẩm quyền<select id="pilotAuthorityOutcome"><option>Chưa đối chiếu</option><option>Trùng với người duyệt</option><option>Không trùng với người duyệt</option><option>Cần xin ý kiến chuyên môn</option></select></label>
+    <label>Thời gian hoàn thành (phút)<input id="pilotMinutes" type="number" min="0" max="120" inputmode="numeric" placeholder="VD: 3"/></label>
+  </div></fieldset>
+  <div class="case-actions"><button id="caseBuild" type="button">Tạo phiếu tóm tắt</button><button id="caseCopy" type="button">📋 Sao chép</button><button id="caseDownload" type="button">⬇️ Tải TXT</button><button id="casePrint" type="button">🖨️ In/Lưu PDF</button><button id="caseClear" class="danger-button" type="button">Xóa phiên</button></div>
+  <pre id="caseOutput" class="case-output">Chưa tạo phiếu.</pre>
+</section>

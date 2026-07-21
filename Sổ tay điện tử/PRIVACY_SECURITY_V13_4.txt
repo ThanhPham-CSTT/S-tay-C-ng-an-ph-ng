@@ -1,0 +1,8 @@
+NGUYÊN TẮC AN TOÀN DỮ LIỆU V13.4
+
+- Bản thí điểm không có trường họ tên, số định danh, số điện thoại, địa chỉ cụ thể hoặc biển số đầy đủ.
+- Hồ sơ vụ việc chỉ nằm trong bộ nhớ của trang; không ghi localStorage, sessionStorage, cookie hoặc máy chủ.
+- Phiên tự xóa sau 30 phút không thao tác hoặc khi người dùng bấm Xóa phiên.
+- Tệp TXT/PDF do người dùng chủ động tạo nằm ngoài phạm vi kiểm soát của ứng dụng; phải lưu theo quy định nội bộ của đơn vị.
+- Không tải bản thí điểm lên môi trường công khai kèm hồ sơ thật.
+- Trước triển khai có dữ liệu thật cần bổ sung xác thực, phân quyền, mã hóa, nhật ký truy cập, thời hạn lưu và quy trình xóa dữ liệu.

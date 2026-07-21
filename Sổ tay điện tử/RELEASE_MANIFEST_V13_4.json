@@ -1,0 +1,203 @@
+{
+  "release": "V13.4 Field Pilot & Legal Integrity Edition",
+  "built_at": "2026-07-21T02:34:29.391420+00:00",
+  "entrypoint": "index.html",
+  "offline_capable": true,
+  "privacy_mode": "memory-only; no localStorage/sessionStorage; idle clear after 30 minutes",
+  "test_status": "PASS",
+  "test_assertions": 53,
+  "rows": 915,
+  "nd168_nd238_rows": 455,
+  "files": [
+    {
+      "path": "BAO_CAO_NANG_CAP_V12_0.txt",
+      "bytes": 2063,
+      "sha256": "cb9c7b32e6458413339b47230db4cab31ec3f17df9740350511011c3c33e77c7"
+    },
+    {
+      "path": "DATA_AUDIT_REPORT_V13_4.json",
+      "bytes": 798,
+      "sha256": "94c06feeaca1ca46199a5240583ac5fed2502d7f8b0ebaa5c80c76aec9297253"
+    },
+    {
+      "path": "LEGAL_CHANGELOG_V13_4.json",
+      "bytes": 917,
+      "sha256": "fcd07348995fdd989733dfbe517eef8de13a9a9592830f3902bcaf4b7ce9cfde"
+    },
+    {
+      "path": "MOBILE_IPAD_QA_V13_4.txt",
+      "bytes": 1547,
+      "sha256": "0f789e53df37a9279d61f210bcc5fa91136dade8bcde849b77685536d3dae0cf"
+    },
+    {
+      "path": "PILOT_GUIDE_V13_4.txt",
+      "bytes": 2158,
+      "sha256": "8094463cfca2e46feb3e5049775565ea585d446003dd841126085dae1adede31"
+    },
+    {
+      "path": "PRIVACY_SECURITY_V13_4.txt",
+      "bytes": 849,
+      "sha256": "b1e346dfe73dce463d31a5d7f05960ce347c29a0ce576d68255058b1a8fb4ac9"
+    },
+    {
+      "path": "README_V10_2.txt",
+      "bytes": 462,
+      "sha256": "f1c2019e4b8e2f363d1d1b4d933f32489a3106f8ab39df5c7d38fac24430f424"
+    },
+    {
+      "path": "README_V10_4.txt",
+      "bytes": 594,
+      "sha256": "ecc0ac6d555700ece150692517ad7ed0e854ff25816bfb104f0b8518b2cc892a"
+    },
+    {
+      "path": "README_V10_5_STAGE1_ND168.txt",
+      "bytes": 801,
+      "sha256": "d444450de92260c1bffaf0d0a68a0cc60b293a6fd10ddff47032e034430a2689"
+    },
+    {
+      "path": "README_V10_6_STAGE2_ND336.txt",
+      "bytes": 1089,
+      "sha256": "574b127ee0e3b817b6fa49fbcdc7a8c9cb1538d2ac8aa25de53d2aed4f968eea"
+    },
+    {
+      "path": "README_V10_7_STAGE3_PCCC.txt",
+      "bytes": 986,
+      "sha256": "bf375899df3b98e1b18c202eba210070a6de0079ff1e55f33d6863203ce8135b"
+    },
+    {
+      "path": "README_V10_8_STAGE4_SYSTEM_AUDIT.txt",
+      "bytes": 7146,
+      "sha256": "e9985750202b7c04d78449cb063e371c104e8836759fb862d7733ac9dde1fe6d"
+    },
+    {
+      "path": "README_V11_0_OFFICIAL_FIELD_USE.txt",
+      "bytes": 1130,
+      "sha256": "d17d5cc293798893a96ececca93ca557b3e5f98024dfb34d63595e3f5ee08e00"
+    },
+    {
+      "path": "README_V12_0.txt",
+      "bytes": 740,
+      "sha256": "13daa7ae2fbe7c45349eff964bdc0921e0d0731c57500f8284757b90d0c25c94"
+    },
+    {
+      "path": "README_V12_1.txt",
+      "bytes": 421,
+      "sha256": "e629674ddfe82f5d2e22aa5bf1b0a608a6a771523ee524b2963c0e7778bd05fe"
+    },
+    {
+      "path": "README_V12_2.txt",
+      "bytes": 317,
+      "sha256": "eb4917f7720e50b86a3d1f6b813e267fefafb37709fbdb1b56dc17017371520e"
+    },
+    {
+      "path": "README_V13_0.txt",
+      "bytes": 2771,
+      "sha256": "13e4b277120f6270a82dbe73b7d2377c7d79aabba513b3c10825b77b2b145eb9"
+    },
+    {
+      "path": "README_V13_4.txt",
+      "bytes": 2835,
+      "sha256": "edd4b1ff4c03a76d1077a4a3ca0c286059aa96eb8e3c4cdec6e80ba5779a1719"
+    },
+    {
+      "path": "TEST_REPORT_V13_4.json",
+      "bytes": 2065,
+      "sha256": "a1aa89e589d14c0856da7ff89f9a129e17713ec863e542a58186f9b1f3732544"
+    },
+    {
+      "path": "assets/image_01_fb2164d4c4.png",
+      "bytes": 276018,
+      "sha256": "86a73f258c0c7fdae7f207f5030b992ba9ad6d89ad15fac549ff3f7d28fd13c8"
+    },
+    {
+      "path": "assets/image_02_cb1879fb48.png",
+      "bytes": 54871,
+      "sha256": "bde3ae00b050a35ac946a888755455868edebb9cb559ecfd0dad5bab978836b8"
+    },
+    {
+      "path": "assets/image_03_f45d1b284f.svg",
+      "bytes": 1351,
+      "sha256": "83f461f00a7737b53d0d67a037ddf400370bf2436b093923507df112d492a214"
+    },
+    {
+      "path": "assets/image_04_c014c16aa5.svg",
+      "bytes": 1347,
+      "sha256": "42b4c48144ffdc349623ebffa861cb7a2a32c7b10331c38df95cc13a0f650069"
+    },
+    {
+      "path": "assets/image_05_fbe3e15a43.svg",
+      "bytes": 1347,
+      "sha256": "95824f688062ff4d131af41fa61f03e66d3e284697dec908ff81364f1107bb06"
+    },
+    {
+      "path": "assets/image_06_2a1cb1950c.svg",
+      "bytes": 1349,
+      "sha256": "72e15fe0632b22c295c67e87bfaaa8cee8c0c3d00531b7fc9070ea9d1c2a26f9"
+    },
+    {
+      "path": "assets/image_07_43a42b5b76.svg",
+      "bytes": 1352,
+      "sha256": "562832bd3b24ab000200150ae82572cf29ebab43afe978d11e1946c31bbc7594"
+    },
+    {
+      "path": "assets/image_08_8d6be99da7.png",
+      "bytes": 2926966,
+      "sha256": "0d7378e478ce46f32e109164176178a56fee046f4842f88304a57c9ccd102ba3"
+    },
+    {
+      "path": "index.html",
+      "bytes": 4354262,
+      "sha256": "51da68b3f61a1a214c6c500b8e167e1ca7fce5a8ae822b2bffbf640116e88b1c"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 688,
+      "sha256": "a319ed1af626761a235321841ceb8e10fa9f38ee13b1984e69348a4dcdbf4d6c"
+    },
+    {
+      "path": "script_1.js",
+      "bytes": 4003583,
+      "sha256": "5e2eaf58e62341298bf8b7d551387fd81a5a69df0a164bd71ac4ef799773e43f"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1737,
+      "sha256": "9dfe44de961a03d58b3ac92249f664f8d7e1ca40808a0a75d8919757484622e3"
+    },
+    {
+      "path": "tests/run_v13_4_tests.mjs",
+      "bytes": 7884,
+      "sha256": "6d2a8c5faad27334100621e3d27f49677325284e9c8dc4a610611b6a853e1f90"
+    },
+    {
+      "path": "tools/build_release_manifest.py",
+      "bytes": 1967,
+      "sha256": "40073ff8b19710030c10966720bed5ab454dc3c0b0e6b6c9a2e310fd1449ed43"
+    },
+    {
+      "path": "tools/case_panel.html",
+      "bytes": 4637,
+      "sha256": "895223d9552355aa91c338990553327d0e67e04285b92699604282a13124c474"
+    },
+    {
+      "path": "tools/upgrade_v13_4.py",
+      "bytes": 21599,
+      "sha256": "3e832f83aec2af38fbd161adf9caa1f71a42a4c313a446b96b7e72036aac85da"
+    },
+    {
+      "path": "v13_4.css",
+      "bytes": 3763,
+      "sha256": "3e4bb53328e6151681fe40045ecf9897d56d0fafa500d047718934970959a486"
+    },
+    {
+      "path": "v13_4.js",
+      "bytes": 14750,
+      "sha256": "bb9fc2fd72a8ac22e40f378272ca8b059287f20688f7678d34d198606a370832"
+    },
+    {
+      "path": "version.json",
+      "bytes": 228,
+      "sha256": "669cb0c8a9b5f2f2509c74745d47a65a6e6be999f75a7c210d78f49d3bea8cad"
+    }
+  ]
+}

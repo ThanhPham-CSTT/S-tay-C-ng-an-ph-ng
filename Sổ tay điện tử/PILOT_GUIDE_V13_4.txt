@@ -1,0 +1,46 @@
+HƯỚNG DẪN THÍ ĐIỂM V13.4 (2-4 TUẦN)
+
+1. Phạm vi
+- 5-10 cán bộ, sử dụng song song với quy trình hiện hành.
+- Không nhập dữ liệu cá nhân vào ứng dụng.
+- Không dùng kết quả ứng dụng làm căn cứ duy nhất để ký quyết định.
+
+2. Quy trình mỗi ca
+1) Nhập từ khóa thực tế.
+2) Chọn dòng Điều/Khoản/Điểm cụ thể, không chọn dòng tóm tắt.
+3) Kiểm tra hiệu lực theo ngày hành vi.
+4) Kiểm tra trạng thái ma trận thẩm quyền.
+5) Thêm dòng pháp lý vào hồ sơ vụ việc.
+6) Đánh dấu chứng cứ đã có; tạo phiếu tóm tắt.
+7) Đối chiếu văn bản gốc và hệ thống nghiệp vụ chính thức.
+8) Ghi nhận sai lệch vào phiếu đánh giá cuối ngày.
+
+3. Chỉ số cần thu thập
+- Thời gian từ lúc mở ứng dụng đến khi tìm được dòng phù hợp.
+- Dòng đúng có nằm trong 3 kết quả đầu hay không.
+- Kết luận thẩm quyền có trùng với người duyệt hồ sơ hay không.
+- Có thiếu dấu hiệu, chứng cứ hoặc hình thức bổ sung nào không.
+- Thiết bị, trình duyệt, trạng thái online/offline và lỗi gặp phải.
+
+4. Ngưỡng phát hành
+- Đúng Điều/Khoản/Điểm trong top 3: tối thiểu 95%.
+- Sai kết luận thẩm quyền: 0.
+- Sai hiệu lực văn bản: 0.
+- Hoàn thành tác vụ không cần trợ giúp: tối thiểu 85%.
+- Ứng dụng hoạt động ổn định: tối thiểu 99,5% phiên.
+
+5. Điều kiện dừng thí điểm ngay
+- Phát hiện dòng có hiệu lực sai.
+- Ứng dụng gợi ý Công an phường ra quyết định ngoài Điều 41/43.
+- Phiếu vụ việc làm lộ hoặc lưu dữ liệu cá nhân.
+- Kết quả tìm kiếm đưa dòng tóm tắt lên trên dòng pháp lý cụ thể trong ca nghiêm trọng.
+
+6. Phiếu đánh giá cuối ngày
+- Số ca sử dụng:
+- Số ca đúng top 1/top 3:
+- Số ca phải tìm thủ công:
+- Số lỗi thẩm quyền:
+- Số lỗi hiệu lực:
+- Ba từ khóa không tìm được:
+- Ba điểm giao diện gây chậm:
+- Đề xuất sửa:

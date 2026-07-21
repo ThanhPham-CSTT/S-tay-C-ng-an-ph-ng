@@ -1,0 +1,20 @@
+BÁO CÁO NÂNG CẤP V12.0 - 7 GIAI ĐOẠN
+
+1. Đã sao lưu và tách bản làm việc từ V11.0.
+2. Đã gắn mã tra cứu cho 872 dòng; làm sạch ghi chú khóa lặp lại; tách từ khóa tìm kiếm khỏi ghi chú/checklist.
+3. Đã viết lại lõi tìm kiếm theo nguyên tắc legal-first; bỏ cơ chế chặn cứng liên mô-đun.
+4. Đã tạo chỉ mục một lần khi mở ứng dụng; debounce 220 ms; giới hạn 40 kết quả ban đầu; giảm dung lượng index.html từ khoảng 4,09 MB xuống khoảng 3,49 MB.
+5. Đã thay bộ tự kiểm tra: kiểm tra mô-đun, Điều, Khoản, Điểm và nội dung hành vi đối với các ca trọng điểm.
+6. Đã rà cấu trúc 3 mô-đun trên dữ liệu hiện có. Không tự ý thay mức phạt/căn cứ chưa có văn bản gốc kèm theo.
+7. Đã kiểm tra cú pháp JavaScript và đóng gói bản V12.0 để thử thực tế.
+
+KẾT QUẢ TRỌNG ĐIỂM
+- “hàng rong” và “bán hàng rong”: ưu tiên NĐ 168/2024, Điều 12, khoản 2, điểm e.
+- Checklist và tình huống thực chiến không còn được ưu tiên cao hơn dòng pháp lý.
+- Các nhóm đi ngược chiều, đường cấm, rác thải, PCCC được siết điều kiện khớp để tránh kết quả chỉ chứa từ khóa trong câu ngoại lệ hoặc ghi chú.
+
+PHẠM VI CHƯA THỂ TUYÊN BỐ HOÀN THÀNH PHÁP LÝ 100%
+- Một số từ khóa như “lấn chiếm vỉa hè” trong dữ liệu V11 chỉ có tình huống thực chiến, chưa có dòng pháp lý tương ứng đủ Điều/Khoản/Điểm. V12 không ép một dòng pháp lý gần nghĩa lên đầu.
+- Độ sẵn sàng kỹ thuật dự kiến: 92–95%.
+- Độ tin cậy pháp lý 97–98% chỉ đạt được sau khi đối chiếu toàn bộ 872 dòng với văn bản gốc có hiệu lực.
+- Ứng dụng là công cụ hỗ trợ; trước khi lập biên bản hoặc ra quyết định vẫn phải đối chiếu văn bản gốc và tình tiết thực tế.
