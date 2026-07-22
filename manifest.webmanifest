@@ -1,0 +1,16 @@
+{
+  "name": "Sổ tay Công an phường V13.4 - Field Pilot",
+  "short_name": "CA phường V13.4",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f6fb",
+  "theme_color": "#0f172a",
+  "lang": "vi",
+  "description": "Tra cứu NĐ168/NĐ238, NĐ336 và PCCC; ma trận thẩm quyền, hồ sơ vụ việc và chế độ offline thử nghiệm thực địa.",
+  "icons": [
+    {"src": "assets/image_02_cb1879fb48.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "assets/image_01_fb2164d4c4.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

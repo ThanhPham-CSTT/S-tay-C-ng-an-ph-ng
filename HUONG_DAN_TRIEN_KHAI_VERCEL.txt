@@ -1,0 +1,52 @@
+SỔ TAY CA PHƯỜNG V13.4 — GÓI VERCEL READY
+
+TÌNH TRẠNG ĐÃ KIỂM TRA NGÀY 22/07/2026
+- Gói ZIP hợp lệ; index.html đang nằm đúng tại thư mục gốc.
+- Các tệp CSS, JavaScript, manifest, service worker, version.json và hình ảnh đều đầy đủ.
+- Nếu domain báo DEPLOYMENT_NOT_FOUND, cần tạo lại deployment hoặc liên kết lại đúng project Vercel.
+
+CÁCH ĐƯA LÊN GITHUB RỒI KẾT NỐI VERCEL
+1. Mở repository GitHub đang kết nối với Vercel.
+2. Tại nhánh main, đưa TRỰC TIẾP toàn bộ tệp trong gói này lên thư mục gốc của repository.
+3. Không tải nguyên tệp ZIP lên repository và không để các tệp trong thư mục con “tay điện tử”.
+4. Kiểm tra trang chính của repository phải nhìn thấy ngay index.html, vercel.json, sw.js và version.json.
+5. Trong Vercel, mở project cần sử dụng, vào Settings > Git và kiểm tra repository/nhánh Production là main.
+6. Vào Deployments, chọn Redeploy bản mới nhất; nếu chưa có deployment thì import lại repository vào Vercel.
+7. Sau khi triển khai xong, mở /version.json; trường release phải là V13.4.
+8. Nếu cần giữ đúng domain sotayconganphuonghb.vercel.app, kiểm tra project name/domain trong Settings > Domains.
+
+CÁCH DÙNG TRÊN WINDOWS
+1. Giải nén toàn bộ ZIP.
+2. Bấm đúp DEPLOY_WINDOWS.bat.
+3. Đăng nhập Vercel trong trình duyệt.
+4. Khi được hỏi, chọn "Link to existing project" và chọn đúng project đang chạy bản cũ.
+5. Mở URL Preview để kiểm tra.
+6. Chỉ chọn Y khi Preview đã đúng; khi đó script mới chạy lệnh Production.
+
+CÁCH DÙNG TRÊN MAC/LINUX
+1. Giải nén ZIP và mở Terminal trong thư mục.
+2. Chạy: chmod +x DEPLOY_MAC_LINUX.sh
+3. Chạy: ./DEPLOY_MAC_LINUX.sh
+4. Làm theo các bước xác thực, liên kết và kiểm tra Preview.
+
+CẤU HÌNH ĐÃ CÓ SẴN
+- Website tĩnh, Framework Preset Other.
+- Không cần install/build.
+- index.html, sw.js, version.json và manifest không giữ cache dài.
+- Các tệp hướng dẫn/triển khai bị loại khỏi nội dung website bằng .vercelignore.
+
+KIỂM TRA PREVIEW
+- Mở /version.json: release phải là V13.4.
+- Tra cứu thử: "xe quá tải 30%", "camera khoang chở khách", "bình chữa cháy hết hạn".
+- Mở hồ sơ vụ việc và thử tạo phiếu tóm tắt.
+- Kiểm tra ảnh và thanh điều hướng trên điện thoại/iPad.
+
+SAU KHI LÊN PRODUCTION
+- Mở website khi có mạng và tải lại hai lần.
+- Nếu PWA vẫn hiện bản cũ, đóng ứng dụng, mở lại; trường hợp cần thiết thì xóa dữ liệu website/cài lại PWA.
+- Có thể rollback deployment cũ từ mục Deployments trong Vercel nếu phát hiện lỗi.
+
+LƯU Ý
+- Chọn sai project sẽ không cập nhật đúng domain cũ.
+- Không nhập hoặc gửi mật khẩu/token vào hội thoại.
+- V13.4 là bản thí điểm nghiệp vụ; không dùng làm căn cứ duy nhất để ra quyết định xử phạt.
