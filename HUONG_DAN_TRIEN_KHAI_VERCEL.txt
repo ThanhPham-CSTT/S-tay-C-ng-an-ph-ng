@@ -1,6 +1,8 @@
-SỔ TAY CA PHƯỜNG V13.4 — GÓI VERCEL READY
+SỔ TAY CA PHƯỜNG V13.4.1 — SEARCH RECOVERY / VERCEL READY
 
 TÌNH TRẠNG ĐÃ KIỂM TRA NGÀY 22/07/2026
+- Đã sửa lỗi thiếu hàm hi() làm nút tra cứu không cập nhật kết quả trên V13.4.
+- Đã đổi mã cache PWA để điện thoại/iPad nhận bản Search Recovery mới.
 - Gói ZIP hợp lệ; index.html đang nằm đúng tại thư mục gốc.
 - Các tệp CSS, JavaScript, manifest, service worker, version.json và hình ảnh đều đầy đủ.
 - Nếu domain báo DEPLOYMENT_NOT_FOUND, cần tạo lại deployment hoặc liên kết lại đúng project Vercel.
@@ -12,7 +14,7 @@ CÁCH ĐƯA LÊN GITHUB RỒI KẾT NỐI VERCEL
 4. Kiểm tra trang chính của repository phải nhìn thấy ngay index.html, vercel.json, sw.js và version.json.
 5. Trong Vercel, mở project cần sử dụng, vào Settings > Git và kiểm tra repository/nhánh Production là main.
 6. Vào Deployments, chọn Redeploy bản mới nhất; nếu chưa có deployment thì import lại repository vào Vercel.
-7. Sau khi triển khai xong, mở /version.json; trường release phải là V13.4.
+7. Sau khi triển khai xong, mở /version.json; trường release phải là V13.4.1.
 8. Nếu cần giữ đúng domain sotayconganphuonghb.vercel.app, kiểm tra project name/domain trong Settings > Domains.
 
 CÁCH DÙNG TRÊN WINDOWS
@@ -36,7 +38,7 @@ CẤU HÌNH ĐÃ CÓ SẴN
 - Các tệp hướng dẫn/triển khai bị loại khỏi nội dung website bằng .vercelignore.
 
 KIỂM TRA PREVIEW
-- Mở /version.json: release phải là V13.4.
+- Mở /version.json: release phải là V13.4.1.
 - Tra cứu thử: "xe quá tải 30%", "camera khoang chở khách", "bình chữa cháy hết hạn".
 - Mở hồ sơ vụ việc và thử tạo phiếu tóm tắt.
 - Kiểm tra ảnh và thanh điều hướng trên điện thoại/iPad.
@@ -49,4 +51,4 @@ SAU KHI LÊN PRODUCTION
 LƯU Ý
 - Chọn sai project sẽ không cập nhật đúng domain cũ.
 - Không nhập hoặc gửi mật khẩu/token vào hội thoại.
-- V13.4 là bản thí điểm nghiệp vụ; không dùng làm căn cứ duy nhất để ra quyết định xử phạt.
+- V13.4.1 là bản thí điểm nghiệp vụ; không dùng làm căn cứ duy nhất để ra quyết định xử phạt.

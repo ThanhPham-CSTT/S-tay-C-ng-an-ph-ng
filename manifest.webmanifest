@@ -1,6 +1,6 @@
 {
-  "name": "Sổ tay Công an phường V13.4 - Field Pilot",
-  "short_name": "CA phường V13.4",
+  "name": "Sổ tay Công an phường V13.4.1 - Search Recovery",
+  "short_name": "CA phường V13.4.1",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

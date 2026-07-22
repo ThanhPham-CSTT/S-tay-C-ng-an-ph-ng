@@ -1,5 +1,5 @@
 'use strict';
-var CACHE='so-tay-ca-phuong-v13-4-20260721';
+var CACHE='so-tay-ca-phuong-v13-4-1-search-recovery-20260722';
 var CORE=[
   './','./index.html','./manifest.webmanifest','./version.json','./v13_4.css','./v13_4.js',
   './assets/image_01_fb2164d4c4.png','./assets/image_02_cb1879fb48.png',

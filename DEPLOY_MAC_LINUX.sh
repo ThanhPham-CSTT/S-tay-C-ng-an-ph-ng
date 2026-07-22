@@ -7,7 +7,7 @@ if ! command -v npx >/dev/null 2>&1; then
   exit 1
 fi
 
-echo "SỔ TAY CA PHƯỜNG V13.4 - CẬP NHẬT PROJECT VERCEL CŨ"
+echo "SỔ TAY CA PHƯỜNG V13.4.1 - SEARCH RECOVERY"
 echo "Khi được hỏi, chọn Link to existing project và chọn đúng project cũ."
 echo "Không chọn tạo project mới."
 
@@ -17,17 +17,16 @@ npx --yes vercel@latest link
 echo "Đang tạo bản Preview; domain Production chưa thay đổi..."
 npx --yes vercel@latest
 
-echo "Mở URL Preview vừa hiển thị và kiểm tra /version.json phải là V13.4."
+echo "Mở URL Preview vừa hiển thị và kiểm tra /version.json phải là V13.4.1."
 printf "Preview đã đúng, cập nhật Production? [y/N] "
 read -r answer
 case "$answer" in
   y|Y|yes|YES)
     npx --yes vercel@latest --prod
-    echo "[THÀNH CÔNG] Đã gửi V13.4 lên Production của project đã liên kết."
+    echo "[THÀNH CÔNG] Đã gửi V13.4.1 lên Production của project đã liên kết."
     echo "Mở website khi có mạng và tải lại hai lần để service worker cập nhật."
     ;;
   *)
     echo "Đã dừng sau Preview. Production chưa bị thay đổi."
     ;;
 esac
-

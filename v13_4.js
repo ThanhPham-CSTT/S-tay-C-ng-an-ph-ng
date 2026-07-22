@@ -1,6 +1,6 @@
 (function(){
   'use strict';
-  var RELEASE='V13.4';
+  var RELEASE='V13.4.1';
   var DATA_LOCK='21/07/2026';
   var selectedRow=null;
   var inactivityTimer=null;

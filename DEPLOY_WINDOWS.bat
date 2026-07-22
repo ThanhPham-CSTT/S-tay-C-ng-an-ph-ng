@@ -10,7 +10,7 @@ if errorlevel 1 (
 )
 
 echo ============================================================
-echo SO TAY CA PHUONG V13.4 - CAP NHAT PROJECT VERCEL CU
+echo SO TAY CA PHUONG V13.4.1 - SEARCH RECOVERY
 echo ============================================================
 echo Khi duoc hoi, chon Link to existing project va chon DUNG project cu.
 echo Khong chon tao project moi.
@@ -28,7 +28,7 @@ call npx --yes vercel@latest
 if errorlevel 1 goto :failed
 
 echo.
-echo Hay mo URL Preview vua hien thi va kiem tra /version.json phai la V13.4.
+echo Hay mo URL Preview vua hien thi va kiem tra /version.json phai la V13.4.1.
 choice /C YN /M "Preview da dung, cap nhat Production ngay"
 if errorlevel 2 goto :cancelled
 
@@ -36,7 +36,7 @@ call npx --yes vercel@latest --prod
 if errorlevel 1 goto :failed
 
 echo.
-echo [THANH CONG] Da gui V13.4 len Production cua project da lien ket.
+echo [THANH CONG] Da gui V13.4.1 len Production cua project da lien ket.
 echo Mo website khi co mang va tai lai 2 lan de service worker cap nhat.
 pause
 exit /b 0
@@ -51,4 +51,3 @@ echo.
 echo [LOI] Trien khai khong hoan tat. Production cu khong bi thay doi neu chua chay xong lenh --prod.
 pause
 exit /b 1
-
